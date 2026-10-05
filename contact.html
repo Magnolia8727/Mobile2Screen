@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+<body style="display: flex; flex-direction: column; gap: 10px;">
+
+    
+    <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Contacts Page</h1>
+
+    <div>
+        <form method="post">
+        
+            <table>
+
+                <tr>
+                    <td><label for="name"  style=" font-size: 25px;">Name:</label></td>
+                    <td><input type="text" name="name" /></td>
+                </tr>
+
+                 <tr>
+                    <td><label for="email"  style=" font-size: 25px;" required>Email:</label></td>
+                    <td><input type="email" name="email" required /></td>
+                </tr>
+                <tr>
+                    <td><label for="message"  style=" font-size: 25px;" required>Message:</label></td>
+                    <td><textarea style="width: 200px; height: 100px ; word-break: break-all; overflow-y: auto;" ></textarea></td>
+                </tr>
+                <tr>
+
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button style="width: 75px; height: 35px; border-radius: 15px;" type="reset">Clear</button><button style="margin-left: 10px; width: 75px; height: 35px; border-radius: 15px;"; type="submit">Submit</button</td>
+                    
+                </tr>
+                
+
+            </table>
+
+        </form>
+
+
+         <nav style="position: fixed; bottom: 0; border: 1px solid purple; display: flex; flex-direction: row; gap:5px; overflow-x: auto; width: max-content; margin: 5px; align-items: center; margin-bottom: 15px; border-radius: 25px; ">
+     
+        <div style="padding: 5px; background-color: violet;" >
+       <a href="home.html"><button style="height: 40px; width: 90px; border-radius: 25px;">Home Page</button></a>  
+       <a href=""><button style="height: 40px; width: 90px; border-radius: 25px;">Next Page</button></a>  
+       <a href="contact.html" style=""><button style="height: 40px; width: 90px; border-radius: 25px;">Contact</button></a>  
+       <a href=""><button style="height: 40px; width: 90px; border-radius: 25px;">Menu</button></a>
+        </div>
+     
+
+    </nav>
+
+    </div>
+
+    
+
+    
+    
+</body>
+</html>
